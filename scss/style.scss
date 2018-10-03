@@ -148,3 +148,42 @@ footer{
 	}
 	address{float: left;}
 	.map{float: right;}
+	@media screen and (max-width:1200px){
+		section{
+			padding: 3em 7.5em;
+	
+			&.main{
+				padding: 2em 1em;
+				h1{
+					margin: 10% auto 0;
+				}
+			}
+		}
+		.catalog{
+			.column{
+				width:50%;
+				margin-bottom: 2em;
+			}
+		}
+	}
+	@media screen and (max-width:724px){
+		section{
+			padding: 1.5em 3.7em;
+	
+			&.main{
+				padding: 1em 0.5em;
+				h1{
+					margin: 2% auto 0;
+				}
+			}
+		}
+		.logo{
+			display: none;
+		}
+		.catalog{
+			.column{
+				width:100%;
+				margin-bottom: 1em;
+			}
+		}
+	}
