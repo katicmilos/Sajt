@@ -94,3 +94,42 @@ section,{
 			}
 		}
 }
+.pricing{
+	table{
+		width: 60%;
+		margin: 0 auto;
+		border-collapse: collapse;
+		th, td{
+			padding: 1em;
+
+			&:hover {
+				color: black;
+			}
+		}
+		thead{ 
+			background-color: $main_red;
+			
+			th{
+				color: #fff;}
+			th:first-child{
+				background: $red_dark;
+			}
+		}
+		tbody {
+			padding: 0 1em;
+	
+			tr {
+				border-bottom: 1px solid $main_text_color;
+	
+				&:hover {
+					background: rgb(245, 152, 152);
+				}
+	
+				td:first-child {
+					font-weight: bold;
+					background: $grey_background;
+				}
+			}
+		}
+	}
+}
