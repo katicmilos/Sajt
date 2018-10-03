@@ -1,0 +1,11 @@
+@import 'vars';
+@import 'mixins';
+
+@include main;
+
+header {
+	width: 100%;
+	height: 50em;
+	background: url('../slike/background.jpg');
+	background-size: cover;
+}
