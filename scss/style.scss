@@ -122,7 +122,7 @@ section,{
 				border-bottom: 1px solid $main_text_color;
 	
 				&:hover {
-					background: rgb(245, 152, 152);
+					background:$grey_background;
 				}
 	
 				td:first-child {
@@ -133,3 +133,18 @@ section,{
 		}
 	}
 }
+footer{
+	background-color: black;
+	text-align: left;
+	@include clearfix;
+
+	.logo{
+		font-size:1.5em;
+		border-bottom: 1px solid $main_red;
+		width: 100%;
+	}
+}
+	address, .map{margin: 1.5em;
+	}
+	address{float: left;}
+	.map{float: right;}
